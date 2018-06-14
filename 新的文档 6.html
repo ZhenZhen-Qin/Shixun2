@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<style>
+		#cate-box{
+			width:210px;
+			height:400px;
+			background-color:#FAFAFA;
+			border:1px solid red;
+		}
+		#cate-box>ul>li{
+			width:196px;
+			list-style:none;
+			position:relative;
+			z-index:10;
+		}
+		#cate-box>ul>li:hover{
+			background-color:#fff;
+			border-top:1px solid red;
+		}
+
+
+	</style>
+
+ </head>
+ <body>
+	  <div id="cate-box">
+	  	<ul>
+			<li><a href="#">图书,数字</a></li>
+			<li>
+				<a href="#">图书,</a>
+				<div id="sub-cate-box"></div>
+			</li>
+		</ul>
+	  </div>
+ </body>
+</html>
